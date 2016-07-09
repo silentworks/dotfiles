@@ -17,3 +17,6 @@ export PATH="$DOTFILES/bin:$PATH"
 
 # Local bin directories before anything else
 export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
+
+# Node Version Manager
+export NVM_DIR=~/.nvm
