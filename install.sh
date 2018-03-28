@@ -30,4 +30,4 @@ mv composer.phar /usr/local/bin/composer
 
 # Set OS X preferences
 # We will run this last because this will reload the shell
-source .osx
+# source .osx

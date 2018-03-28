@@ -23,7 +23,7 @@
 # Logs and databases #
 ######################
 *.log
-*.sql
+#*.sql
 *.sqlite
 
 # OS generated files #
@@ -44,3 +44,5 @@ node_modules
 # Sublime Text
 *.sublime-project
 *.sublime-workspace
+
+composer_local.*

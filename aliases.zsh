@@ -4,6 +4,9 @@ alias reloadcli="source $HOME/.zshrc"
 alias reloaddns="dscacheutil -flushcache && sudo killall -HUP mDNSResponder"
 alias ll="$(brew --prefix coreutils)/libexec/gnubin/ls -ahlF --color --group-directories-first"
 alias weather="curl -4 http://wttr.in"
+# rsync -chavzP --stats user@remote.host:/path/to/copy /path/to/local/storage
+alias syncfromremote="rsync -chavzP --stats"
+alias synctoremote="rsync -azP --stats"
 
 # Directories
 alias dotfiles="cd $DOTFILES"
@@ -21,9 +24,6 @@ alias vhalt="vagrant halt"
 alias vssh="vagrant ssh"
 alias vreload="vagrant reload"
 alias vrebuild="vagrant destroy --force && vagrant up"
-
-# Docker
-alias docstart="bash --login '/Applications/Docker/Docker Quickstart Terminal.app/Contents/Resources/Scripts/start.sh'"
 
 # Git Aliases
 alias gs="git status "
