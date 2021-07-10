@@ -52,7 +52,7 @@ ZSH_CUSTOM=$DOTFILES
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git bower brew docker ember-cli composer gitflow npm sublime vagrant)
+plugins=(git brew docker npm)
 
 # Activate Oh-My-Zsh
 source $ZSH/oh-my-zsh.sh

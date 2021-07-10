@@ -1,0 +1,17 @@
+app_config/code_profiles/screencast/data/blob_storage
+app_config/code_profiles/screencast/data/Cache
+app_config/code_profiles/screencast/data/CachedData
+app_config/code_profiles/screencast/data/CachedExtensions
+app_config/code_profiles/screencast/data/GPUCache
+app_config/code_profiles/screencast/data/Local Storage
+app_config/code_profiles/screencast/data/logs
+app_config/code_profiles/screencast/data/User/globalStorage
+app_config/code_profiles/screencast/data/User/snippets
+app_config/code_profiles/screencast/data/User/workspaceStorage
+app_config/code_profiles/screencast/data/webrtc_event_logs
+app_config/code_profiles/screencast/data/Cookies
+app_config/code_profiles/screencast/data/Cookies-journal
+app_config/code_profiles/screencast/data/languagepacks.json
+app_config/code_profiles/screencast/data/machineid
+app_config/code_profiles/screencast/data/Network Persistent State
+app_config/code_profiles/screencast/data/Preferences

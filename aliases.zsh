@@ -40,3 +40,7 @@ alias gmv="git branch -m"
 alias gdr="git push --progress --porcelain origin"
 alias gcfum="git checkout develop && git fetch upstream && git merge upstream/develop"
 alias gprune="git fetch -p"
+
+# VS Code Configuration setup
+# For screencasting, use stripped down settings with large text.
+alias teach="code --user-data-dir ~/.dotfiles/app_config/code_profiles/screencast/data"
