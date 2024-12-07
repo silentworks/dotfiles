@@ -21,6 +21,16 @@ export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
 # Python local packages
 export PATH="/Users/andrewsmith/Library/Python/3.8/bin:$PATH"
 
+# Go
+export GOROOT="/usr/local/go"
+export GOPATH="$HOME/go"
+export PATH="$GOPATH/bin:$GOROOT/bin:$PATH"
+
+# Codon
+export PATH="$HOME/.codon/bin:$PATH"
+
+# Rust
+export PATH="$HOME/.cargo/bin:$PATH"
 # AWS
 # export PATH=~/bin:$PATH
 

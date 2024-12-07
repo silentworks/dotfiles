@@ -1,29 +1,20 @@
 # CLI Shortcuts
-alias copyssh="pbcopy < $HOME/.ssh/id_rsa.pub"
+alias pbcopy="xclip -selection clipboard"
+alias pbpaste="xclip -selection clipboard -o"
+alias copyssh="pbcopy < $HOME/.ssh/id_ed25519.pub"
 alias reloadcli="source $HOME/.zshrc"
 alias reloaddns="dscacheutil -flushcache && sudo killall -HUP mDNSResponder"
-alias ll="$(brew --prefix coreutils)/libexec/gnubin/ls -ahlF --color --group-directories-first"
+# alias ll="$(brew --prefix coreutils)/libexec/gnubin/ls -ahlF --color --group-directories-first"
 alias weather="curl -4 http://wttr.in"
 # rsync -chavzP --stats user@remote.host:/path/to/copy /path/to/local/storage
 alias syncfromremote="rsync -chavzP --stats"
 alias synctoremote="rsync -azP --stats"
+alias supalocal="$HOME/Sites/supabase/cli/cli"
+alias copyproject="rsync -av --exclude 'node_modules' --exclude '.git' --exclude 'dist' --exclude '.next' --exclude '.svelte-kit' --exclude 'dist' --exclude '.venv'"
 
 # Directories
 alias dotfiles="cd $DOTFILES"
-alias library="cd $HOME/Library"
-alias sites="cd $HOME/Code"
-
-# Laravel
-alias art="php artisan"
-alias laravel-new="composer create-project --prefer-dist laravel/laravel"
-
-# Vagrant
-alias v="vagrant global-status"
-alias vup="vagrant up"
-alias vhalt="vagrant halt"
-alias vssh="vagrant ssh"
-alias vreload="vagrant reload"
-alias vrebuild="vagrant destroy --force && vagrant up"
+alias sites="cd $HOME/Sites"
 
 # Git Aliases
 alias gs="git status "

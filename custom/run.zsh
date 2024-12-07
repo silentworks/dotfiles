@@ -3,4 +3,4 @@
 
 # Start python virtualenv
 # source /usr/local/bin/virtualenvwrapper.sh
-export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/local/opt/openssl/lib/pkgconfig
+# export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/local/opt/openssl/lib/pkgconfig
